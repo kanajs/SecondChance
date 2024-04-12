@@ -10,7 +10,7 @@ class Questions{
     }
 
 }
- 
+
 module.exports = {
     Questions
 }

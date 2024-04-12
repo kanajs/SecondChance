@@ -1,4 +1,4 @@
-const Topics = require('./Topics')
+const Topics = require('./topics')
 class Questions{
     constructor(question, answer){
         this.question = question
@@ -14,4 +14,5 @@ class Questions{
 module.exports = {
     Questions
 }
+
 

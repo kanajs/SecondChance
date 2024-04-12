@@ -1,8 +1,7 @@
 class Topics {
-  questions;
-
-  constructor(name) {
+  constructor(name, questions = []) {
     this.name = name;
+    this.questions = questions;
   }
 
   addQuestions(question) {
@@ -11,5 +10,5 @@ class Topics {
 }
 
 module.exports = {
-  Topics
+  Topics,
 };
